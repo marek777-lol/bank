@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body{
+  background: linear-gradient(315deg, #0066FF, #00FFCC);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  background-color: white;
+  padding: 10px 24px;
+  border-radius: 20px;
+  width: 490px;
+}
+
+h1{
+  color: #364547;
+  margin-left: 72px;
+  margin-bottom: 0.5em;
+  font-family: sans-serif;
+}
+
+
+.container .box{
+  width: 100%;
+  display: flex;
+}
+
+.box div{
+  width: 100%;
+}
+
+select{
+  width: 95%;
+  height: 40px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background: #66ffcc;
+  outline: none;
+  color: black;
+  margin: 0.2em 0;
+  padding: 0 1em;
+  border-radius: 10px;
+  border: none;
+}
+
+
+input{
+  width: 95%;
+  height: 40px;
+  font-size: 1em;
+  margin: 0.2em 0;
+  border-radius: 10px;
+  border: none;
+  background: #cccccc;
+  outline: none;
+  padding: 0 1em;
+}
+
+
+.btn{
+  width: 98%;
+  height: 40px;
+  background: #364547;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 0.5em 0;
+} */
+
+body {
+  background-color: #CBC3E3;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  height: 280px;
+  width: 400px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 153px;
+}
+
+.right {
+  width: 153px;
+}
+
+.currency1, .currency2 {
+  border-radius: 10px;
+  height: 40px;
+  width: 153px;
+  margin-bottom: 20px;
+  background-color: #66ffcc;
+  border: none;
+}
+
+
+#num, #ans {
+  border-radius: 10px;
+  height: 40px;
+  width: 153px;
+  margin-bottom: 20px;
+  background-color: #D3D3D3;
+  border: none;
+}
+
+.convert-btn {
+  width: 360px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #20B2AA;
+}
